@@ -1,0 +1,231 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	width: 100%;
+	height: 200px;
+	background-color:rgb(124, 66, 77);
+}
+header .logo{
+	float: left;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+header .menu{
+	float: left;
+	width: 60%;
+	margin-top: 24px;
+	margin-right: 10px;
+}
+header .pub{
+	float: right;
+	width: 22.5%;
+	height: 70px;
+	color: red;
+	margin-top: 25px;
+	margin-right: 10px;
+	text-align: center;
+	font-family: arial;
+	font-size: 22pt;
+	font-weight: bold;
+}
+header .pub span{
+	color: black;
+	font-family: 'Ceviche One', cursive;
+	font-size: 16pt; 
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-size: 15pt;
+	font-weight: bold;
+}
+ul li:hover{
+	background-color: rgba(168, 42, 10, 0.829);
+	border-radius: 20px;
+}
+li{
+	display: inline;
+	text-decoration: none;
+	padding: 25px;
+}
+section .colorex{
+	
+	background-color: #99220dd2;
+}
+
+
+section .experience{
+	font-weight: bold;
+	font-family: arial;
+	font-size: 30pt;
+	margin-top: 50px;
+	margin-left: 40px;
+	padding: 4px;
+}
+section .eximg{
+	float: left;
+	width: 30%;
+	margin-top: 20px;
+	margin-left: 30px;
+	border-radius: 30px;
+
+}
+section .textex{
+	text-align: justify;
+	font-family: verdana;
+	font-size: 15pt;
+	float: right;
+	width: 55%;
+	height: 200px;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+section .colorcon{
+	
+	background-color: #99220dd2;
+}
+section .confiance{
+	font-weight: bold;
+	font-family: arial;
+	font-size: 30pt;
+	margin-top: 400px;
+	margin-left: 40px;
+	padding: 4px;	
+}
+section .conimg{
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	border-radius: 30px;
+}
+section .textcon{
+	text-align: justify;
+	font-family: verdana;
+	font-size: 15pt;
+	float: right;
+	width: 67%;
+	height: 200px;
+	margin-right: 80px;
+	margin-top: 80px;
+}
+section .colorse{
+	background-color: #99220dd2;
+}
+section .securite{
+	font-weight: bold;
+	font-family: arial;
+	font-size: 30pt;
+	margin-top: 460px;
+	margin-left: 40px;
+	padding: 4px;
+}
+section .seimg{
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	border-radius: 30px;
+}
+section .textsec{
+	text-align: justify;
+	font-family: verdana;
+	font-size: 15pt;
+	float: right;
+	width: 55%;
+	height: 200px;
+	margin-right: 100px;
+	margin-top: 70px;
+}
+section .colorqua{
+	background-color: #99220dd2;
+}
+section .qualite{
+	font-weight: bold;
+	font-family: arial;
+	font-size: 30pt;
+	margin-top: 420px;
+	margin-left: 40px;
+	padding: 4px;
+	
+}
+section .qualiimg{
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	border-radius: 30px;
+}
+section .textqua{
+	text-align: justify;
+	font-family: verdana;
+	font-size: 15pt;
+	float: right;
+	width: 67%;
+	height: 200px;
+	margin-right: 80px;
+	margin-top: 80px;
+}
+
+footer{
+	background-color:rgb(124, 66, 77);
+	margin-top: 200px;
+	width: 100%;
+	height: 300px;
+	float: left;
+	
+}
+footer .left{
+	margin-left: 38px;
+	float: left;
+	border-right: 4px solid rgba(168, 42, 10, 0.829);
+	margin-top: 60px;
+	width: 30%;
+}
+footer .left .menu{
+	color: black;
+	font-family: verdana;
+	font-size: 17px;
+	margin:20px;
+	margin-left:60px;
+	padding: 5px;
+}
+footer .center{
+	margin-left: 38px;
+	float: left;
+	border-right: 4px solid rgba(168, 42, 10, 0.829);
+	width: 30%;
+	margin-top: 60px;
+}
+footer .center .contact{
+	color: black;
+	font-family: verdana;
+	font-size: 17px;
+	margin:20px;
+	margin-left:60px;
+	padding: 5px;
+}
+ b{
+	color:white;
+}
+footer .right{
+	margin-top: 10px;
+	margin-left: 50px;
+	float: left;
+	width: 30%;
+}
+
+.realiser{
+	background-color: grey;
+	width: 100%;
+	float: left;
+	height: 30px;
+	font-family: Carter One;
+	font-size: 14pt;
+	text-align: center;
+	line-height: 30px;
+}
+.realiser a{
+	text-decoration: none;
+	color: brown;
+}

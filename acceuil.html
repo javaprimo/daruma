@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DARUMA</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="acceuil.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ceviche+One" rel="stylesheet"> 
+</head>
+<body>
+<header>
+	<div class="logo"><a href="acceuil.html"><img src="images/logo.jpg"/></a>
+	</div>
+	<div class="pub">Experience Et Qualité
+	<br>
+		<span>dans la construction immobilière</span>
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="acceuil.html">Acceuil</a></li>
+			<li><a href="ethique.html">Notre Ethique</a></li>
+			<li><a href="reference.html">Nos Référence</a></li>
+			<li><a href="contact.html">Contactez-Nous</a></li>
+		</ul>
+	</div>
+
+</header>
+	<section>
+
+
+	<div class="slide">
+	<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/amal1.jpg" style="width:100%" height="350px">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/villa4.jpg" style="width:100%" height="350px">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/amal3.jpg" style="width:100%" height="350px">
+    
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+	<div class="di"><i>Mot du Directeur :</i>
+	</div>
+	<div class="directeurimg">
+		<img src="images/directeur.jpg"height="400px">
+	</div>
+<div class="directeur">
+		DARUMA construction  est attachée à la notion de qualité parce qu’on pense que c'est le fondement des valeurs de ce début de millénaire. Pour nous, c'est une préoccupation permanente exigée par l'évolution internationale des marchés et des mentalités. La qualité n'est plus un argumentaire de vente; elle ne s'ajoute plus à la définition d'un produit. Elle est incluse dans le prix de revient ; autrement dit, elle est due. Aucun succès durable ne s'obtient sans elle. Il n'y a pas de progrès qui ne soit un progrès dans la qualité, pas de leader qui ne soit en même temps un leader dans la qualité.
+		Les performances de la Sté DARUMA reposent sur cette conviction. Bien avant que la certification ne devienne une obligation, nous avions déjà une trilogie forte, Qualité - Délai - Prix. Notre culture, ainsi forgée, fut notre meilleur atout vis-à-vis de tous ceux qui découvraient l'importance de la qualité. Aujourd'hui, pour maintenir notre avance, il faut être plus vigilants, plus volontaristes, car dans ce domaine plus que dans tout autre, rien n'est jamais définitivement acquis. Il faut sans cesse vérifier, contrôler; améliorer. Sitôt que la vigilance décroît, la qualité est en danger. Et lorsque l'objectif est atteint, c'est alors qu'il faut déployer plus d'énergie encore pour pérenniser les progrès réalisés. La qualité, on le dira jamais assez, est le meilleur critère de satisfaction du client. C'est même le seul. Nous savons tous qu'un client déçu est non seulement un échec mais aussi un marché perdu pour l'avenir. Offrir le meilleur prix, le meilleur délai, le meilleur service, simple, efficace, moderne, fiable, voilà ce qu'est l'offre de qualité, celle qui fait la différence, celle que veut notre client.
+		Dans les batailles commerciales que nous livrons à l'échelon national, nous constatons que rien n'est plus important que la réputation de l'entreprise dans ce domaine. On a incité les responsables de la Sté DARUMA à examiner les méthodes de travail et la surveillance de la qualité, aussi bien au niveau des produits que des relations clients. On a constaté l'implication personnelle forte de nos Responsables on se réjouis car l'engagement au plus haut niveau est fondamentale quand on veut développer une action en profondeur dans une entreprise. Cette norme est considérée par nos clients comme une garantie sur laquelle repose leur confiance. Il est donc certain qu'il faut être certifié. C'est d'abord une obligation; ensuite, indéniablement une source de progrès. Traditionnellement ancrés dans la technologie et délibérément ouverts sur la modernité la construction est notre métier. Un métier passionnant pour bâtir l'avenir en assurant le confort et la sécurité de nos concitoyens par la construction d'ouvrages réalisés chaque jour dans les règles de notre art.
+</div>
+
+<div class="pre"><i>Présentation :</i>
+</div>
+<div class="presentation">Daruma Construction est une entreprise familiale qui œuvre dans le domaine de la construction depuis plus de 20 ans. A ce jour, elle a pris en charge plus de 70 chantiers de particuliers et supervise 25 de ses propres constructions.
+Proche de ses clients, Daruma Construction vous propose son savoir-faire pour tous vos travaux de construction : logements économiques ou touristiques, établissements privés ou publics.
+Tout en vous garantissant qualité et professionnalisme
+</div> 
+<div class="picpre"><img src="images/imagess.jpg" width="100%" height="250px"> </div> 
+  
+
+
+</section>
+<footer>		
+	<div class="left">
+		<table class="menu">
+		<tr><td><b>ETHIQUE :</b></td></tr>
+		<tr><tr><tr></tr></tr></tr>
+		<tr><td>Experience</td></tr>
+		<tr><tr><tr></tr></tr></tr>
+		<tr><td>Confiance</td></tr>
+		<tr><tr><tr></tr></tr></tr>
+		<tr><td>Securité</td></tr>
+		<tr><tr><tr></tr></tr></tr>
+		<tr><td>َQualité</td></tr>	
+		</table>	
+	</div>
+	<div class="center">
+	<table class="contact">
+		<tr><td><b>CONTACT :</b></td></tr>
+		<tr><td>
+		<tr><td>
+		<tr><td><b>Adresse</b> : Av. Casablanca, Rd. Al Amal 2 n° 1, Tétouan</td></tr>
+			<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+			<tr><td><b> Tél - Fax :</b> +212 539 971 651</td></tr>
+			<tr><tr><tr></tr></tr></tr> 
+			<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+			<tr><td><b>Email</b> : adildounass@gmail.com</td></tr>
+			<tr></tr>
+			<tr></tr>
+	</table>
+	</div>
+	<div class="right">
+		<img src="images/crokis.png">
+	</div>
+</footer>
+<div class="realiser">
+	<font color="white"> Réaliser par : <a href="#"> DOUNAS Adil</font>
+	</div>
+</body>
+</html>
